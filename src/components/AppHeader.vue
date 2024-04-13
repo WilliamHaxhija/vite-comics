@@ -78,6 +78,10 @@
     
     @use '../style/partials/variables' as *;
 
+    header {
+        background-color: white;
+    }
+
     .container {
         display: flex;
         justify-content: space-between;
