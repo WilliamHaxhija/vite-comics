@@ -87,7 +87,8 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <section>
+        <div class="container">
         <div class="banner">CURRENT SERIES</div>
         <div class="card-container">
           <SingleCard v-for="cardData in cardsData" :card="cardData"></SingleCard>
@@ -96,6 +97,7 @@ export default {
           <button class="banner">LOAD MORE</button>
         </div>
     </div>
+    </section>
 </template>
 
 <style scoped lang="scss">
