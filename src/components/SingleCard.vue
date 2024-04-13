@@ -21,6 +21,7 @@ export default {
         flex-shrink: 0;
         flex-grow: 0;
         width: calc((100% / 6) - 2rem);
+        margin-top: 1.3rem;
         cursor: pointer;
 
         &:hover {

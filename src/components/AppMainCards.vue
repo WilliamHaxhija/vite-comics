@@ -109,7 +109,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 1.3rem 0 2rem 0;
 
 }
 
