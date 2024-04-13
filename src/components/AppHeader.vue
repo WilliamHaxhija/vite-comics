@@ -95,6 +95,7 @@
 
         &:hover {
             color: $brand-primary;
+            transition: 0.2s;
         }
 
     }

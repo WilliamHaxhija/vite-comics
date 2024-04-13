@@ -21,6 +21,12 @@ export default {
         flex-shrink: 0;
         flex-grow: 0;
         width: calc((100% / 6) - 2rem);
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+            transition: 0.2s;
+        }
 
         img {
             width: 100%;

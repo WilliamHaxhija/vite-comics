@@ -54,6 +54,12 @@ section {
     align-items: center;
     justify-content: center;
     color: white;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
 
     &.last {
         flex-grow: 1;

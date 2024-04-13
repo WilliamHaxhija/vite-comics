@@ -141,6 +141,7 @@ button {
 
   &:hover {
     opacity: 0.85;
+    transition: 0.2s;
   }
 }
 
